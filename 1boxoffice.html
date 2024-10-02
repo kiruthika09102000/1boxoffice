@@ -4,32 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1BOX OFFICE</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            width: 100%;
-            padding: 10px;
-            box-sizing: border-box; /* Include padding in width */
-        }
-        .header, .content, .footer {
-            border: 1px solid #ccc;
-            margin: 5px 0;
-            padding: 10px;
-        }
-        h1 {
-            font-size: 24px;
-            margin: 0;
-        }
-        p {
-            font-size: 16px;
-        }
-    </style>
-</head>
-<body>
+
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -65,7 +41,7 @@
         }
         nav {
             background-color: #b22222;
-            padding: 10px 0;
+            padding: 20px 0;
         }
         nav ul {
             list-style-type: none;
@@ -149,31 +125,31 @@
     position: relative;
     flex: 1;
     text-align: center;
-    padding: 10px; 
+    padding: 10px; /* Add padding to separate from edges */
 }
 
 .team-img {
-    position: relative; 
+    position: relative; /* For positioning the name */
 }
 
 .team-img img {
-    width: 100%; 
-    height: auto; 
-    display: block; 
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent inline spacing issues */
 }
 
 .team-name {
-    position: relative; 
-    color: black; 
-    background-color: rgba(255, 255, 255, 0.8); 
-    padding: 5px 10px; 
-    margin-top: 5px; 
-    width: calc(100% - 20px); 
-    text-align: center; 
+    position: relative; /* Remove absolute positioning */
+    color: black; /* Dark color for the text */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: light background for contrast */
+    padding: 5px 10px; /* Padding for the text */
+    margin-top: 5px; /* Space between the image and the name */
+    width: calc(100% - 20px); /* Prevent overflow */
+    text-align: center; /* Center text */
 }
 
 input[type="radio"] {
-    display: none; 
+    display: none; /* Hides the radio buttons */
 }
 
 input#slide1:checked ~ .teams {
@@ -198,14 +174,14 @@ input#slide2:checked ~ .teams {
     flex-direction: column;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.9);
-    border: 2px solid red; 
+    border: 2px solid red; /* Red border for the box */
     padding: 10px;
     border-radius: 5px;
 }
 
 .arrow {
-    font-size: 2rem; 
-    color: red; 
+    font-size: 2rem; /* Increase size of the arrows */
+    color: red; /* Set arrow color to red */
     cursor: pointer;
 }
 
@@ -465,31 +441,31 @@ h1 {
 }
 
 .flex-container {
-    display: flex; 
+    display: flex; /* Use flexbox for layout */
     justify-content: space-between;
-    margin-bottom: 20px; 
+    margin-bottom: 20px; /* Space below the flex container */
 }
 
 .company-info-container,
 .football-tickets-container,
 .other-event-tickets-container {
-    background-color: #000; 
-    color: #fff; 
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
     padding: 20px;
     border-radius: 5px;
-    flex: 1; 
-    margin-right: 10px; 
+    flex: 1; /* Equal space for all sections */
+    margin-right: 10px; /* Space between the boxes */
 }
 
 .company-info-container:last-child,
 .football-tickets-container:last-child,
 .other-event-tickets-container:last-child {
-    margin-right: 0; 
+    margin-right: 0; /* Remove margin for the last item */
 }
 
 h2 {
     margin: 0 0 15px;
-    color: #e74c3c; 
+    color: #e74c3c; /* Red color for headings */
 }
 
 .info-list,
@@ -506,42 +482,42 @@ h2 {
 }
 
 a {
-    color: #fff; 
+    color: #fff; /* White links */
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; 
+    text-decoration: underline; /* Underline links on hover */
 }
 .footer {
-    background-color: #2c3e50; 
-    color: #fff; 
+    background-color: #2c3e50; /* Dark background */
+    color: #fff; /* White text */
     padding: 20px;
-    text-align: center; 
-    margin-top: 20px; 
+    text-align: center; /* Center align text */
+    margin-top: 20px; /* Space above the footer */
 }
 
 .footer-content {
     max-width: 800px;
     margin: auto;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
 }
 
 .footer-content p {
-    margin: 0; 
-    margin-right: 10px; 
+    margin: 0; /* Remove default margin */
+    margin-right: 10px; /* Space between text and logos */
 }
 
 .payment-logos {
-    display: flex; 
-    align-items: center; 
+    display: flex; /* Use flexbox for the logos */
+    align-items: center; /* Center logos vertically */
 }
 
 .payment-logo {
-    width: 30px; 
-    margin: 0 5px; 
+    width: 30px; /* Adjust width as needed */
+    margin: 0 5px; /* Space between logos */
 }
 
 
@@ -810,7 +786,7 @@ a:hover {
                 <span class="city-name">Abu Dhabi</span>
             </div>
             <div class="city-card">
-               
+
                 <span class="city-name">Barcelona</span>
             </div>
             <div class="city-card">
